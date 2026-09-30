@@ -4,7 +4,10 @@ export default defineConfig({
   base: './',
   server: {
     port: 3000,
-    open: true
+    open: true,
+    watch: {
+      ignored: ['**/android/**', '**/dist/**', '**/apks/**', '**/*.apk']
+    }
   },
   build: {
     outDir: 'dist',

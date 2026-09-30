@@ -15,3 +15,13 @@ Thumbs.db
 .vscode/
 .idea/
 *.log
+
+# Android build and local configuration
+.gradle/
+android/.gradle/
+android/local.properties
+android/**/build/
+android/app/build/
+*.apk
+*.keystore
+*.jks

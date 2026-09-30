@@ -90,9 +90,37 @@ prompt-shorthand-analyzer-v3.1/
 # Menjalankan development server
 npm run dev
 
-# Menjalankan pengujian otomatis (239 tests)
+# Menjalankan pengujian otomatis (293 tests)
 npm test
 
-# Build production
+# Build production web bundle
 npm run build
+
+# Sinkronisasi asset web ke Android
+npm run android:sync
+
+# Build Android APK Debug
+npm run android:apk:debug
+
+# Build Android APK Release
+npm run android:apk:release
 ```
+
+---
+
+## 📱 Aplikasi Android (APK Wrapper V3.2)
+
+- **Package ID**: `com.sevenprojectchannel.promptshorthand.v32`
+- **Application Name**: `Prompt Shorthand Analyzer V3.2`
+- **Version**: `versionName = 3.2` | `versionCode = 320`
+- **Arsitektur**: Native Android WebView Hybrid Wrapper (mendukung online GitHub Pages dan fallback offline lokal otomatis).
+- **File APK Tersedia** pada folder `apks/`:
+  - `Prompt-Shorthand-Analyzer-v3.2-debug.apk` (Debug APK)
+  - `Prompt-Shorthand-Analyzer-v3.2-release.apk` (Release APK)
+- **Fitur Khusus Android**:
+  - Pull-to-refresh (`SwipeRefreshLayout`)
+  - Tombol Back hardware Android dengan history navigasi (`OnBackPressedDispatcher`)
+  - Indikator koneksi internet & layar error ramah pengguna dengan tombol *"Coba Lagi"* dan *"Mode Offline (Lokal)"*
+  - Dukungan rotasi Portrait & Landscape tanpa me-reload aplikasi atau menghilangkan input prompt pengguna
+  - Penyimpanan BYOK Gemini API Key di dalam secure Web Storage perangkat (tanpa hardcode key)
+
