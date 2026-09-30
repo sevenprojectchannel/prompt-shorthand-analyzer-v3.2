@@ -110,11 +110,14 @@ npm run android:apk:release
 
 ## 📱 Aplikasi Android (APK Wrapper V3.2)
 
+- **Official Release**: [GitHub Release v3.2.0](https://github.com/sevenprojectchannel/prompt-shorthand-analyzer-v3.2/releases/tag/v3.2.0)
+- **Direct Download Release APK**: [Prompt-Shorthand-Analyzer-v3.2-release.apk](https://github.com/sevenprojectchannel/prompt-shorthand-analyzer-v3.2/releases/download/v3.2.0/Prompt-Shorthand-Analyzer-v3.2-release.apk)
+- **Direct Download Debug APK**: [Prompt-Shorthand-Analyzer-v3.2-debug.apk](https://github.com/sevenprojectchannel/prompt-shorthand-analyzer-v3.2/releases/download/v3.2.0/Prompt-Shorthand-Analyzer-v3.2-debug.apk)
 - **Package ID**: `com.sevenprojectchannel.promptshorthand.v32`
 - **Application Name**: `Prompt Shorthand Analyzer V3.2`
 - **Version**: `versionName = 3.2` | `versionCode = 320`
 - **Arsitektur**: Native Android WebView Hybrid Wrapper (mendukung online GitHub Pages dan fallback offline lokal otomatis).
-- **File APK Tersedia** pada folder `apks/`:
+- **File APK Tersedia** pada folder `apks/` dan GitHub Releases:
   - `Prompt-Shorthand-Analyzer-v3.2-debug.apk` (Debug APK)
   - `Prompt-Shorthand-Analyzer-v3.2-release.apk` (Release APK)
 - **Fitur Khusus Android**:
